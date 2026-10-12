@@ -1,0 +1,43 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build
+node_modules/
+dist/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Legacy ML artifacts not used by the final project
+ml/models/pollution_model.joblib
+ml/models/priority_model.joblib
+ml/models/traffic_model.joblib
+ml/models/waste_model.joblib
+ml/data/pollution_data.csv
+ml/data/traffic_data.csv
+ml/data/waste_data.csv
+
+# Unnecessary pip installer
+backend/get-pip.py
